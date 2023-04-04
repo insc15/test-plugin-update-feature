@@ -1,12 +1,13 @@
 <?php
 /*
 Plugin Name: Test Plugin
-Version: 1.0.0
+Version: 1.0.1
+Description: Test Plugin
 */
 
 
 // Define the plugin version
-define( 'MY_PLUGIN_VERSION', '1.0.0' );
+define( 'MY_PLUGIN_VERSION', '1.0.1' );
 
 // Check for updates
 add_action( 'admin_init', 'my_plugin_check_updates' );
